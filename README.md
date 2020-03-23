@@ -1,5 +1,11 @@
 Set XResources settings in a file, from different input types and run the new file.
 
+### Install
+
+Use ``go install``. 
+(Optional) Rename the file to avoid conflicts or to your taste.
+(Optional) Add the file to your path.
+
 ### Usage
 
     theme help              Returns short help and usage
