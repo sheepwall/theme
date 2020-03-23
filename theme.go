@@ -232,6 +232,19 @@ func (pwTheme PywalJsonTheme) toXRTheme() XRTheme {
             "*.color13": pwTheme.Colors.Color13,
             "*.color14": pwTheme.Colors.Color14,
             "*.color15": pwTheme.Colors.Color15,
+            // dwm (window manager)
+            "dwm.normbordercolor": pwTheme.Colors.Color8,
+            "dwm.normbgcolor": pwTheme.Colors.Color0,
+            "dwm.normfgcolor": pwTheme.Colors.Color15,
+            "dwm.selbordercolor": pwTheme.Colors.Color15,
+            "dwm.selbgcolor": pwTheme.Colors.Color2,
+            "dwm.selfgcolor": pwTheme.Colors.Color15,
+            // dmenu
+            "dmenu.font": "\"Inconsolata for Powerline:pixelsize=16:antialias=true:autohint=true\"",
+            "dmenu.background": pwTheme.Colors.Color0,
+            "dmenu.foreground": pwTheme.Colors.Color15,
+            "dmenu.selbackground": pwTheme.Colors.Color1,
+            "dmenu.selforeground": pwTheme.Colors.Color15,
         },
     }
 
