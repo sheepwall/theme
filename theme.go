@@ -243,7 +243,7 @@ func (pwTheme PywalJsonTheme) toXRTheme() XRTheme {
             "dmenu.font": "\"Inconsolata for Powerline:pixelsize=16:antialias=true:autohint=true\"",
             "dmenu.background": pwTheme.Colors.Color0,
             "dmenu.foreground": pwTheme.Colors.Color15,
-            "dmenu.selbackground": pwTheme.Colors.Color1,
+            "dmenu.selbackground": pwTheme.Colors.Color2,
             "dmenu.selforeground": pwTheme.Colors.Color15,
         },
     }
